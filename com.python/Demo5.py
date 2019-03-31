@@ -22,3 +22,16 @@ print('------------')
 string = '111122222'
 string = string.translate(str.maketrans('1', '3'))
 print(string)
+
+print('----------')
+
+str = '{0} 2 {1} 4'
+print(str.format('1', '3'))
+
+print('----------')
+str = '{{0}}'
+print(str.format('不打印'))
+
+print('----------')
+str = '%d + %d = %d' % (4, 5, 4+5)
+print(str)
