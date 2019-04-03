@@ -3,9 +3,7 @@
 
 class Temp:
 
-    s = ''
-
-    def getProperty(self):
+    def getProperty(self, s = ''):
         return self.s
 
     def setProperty(self, s):
