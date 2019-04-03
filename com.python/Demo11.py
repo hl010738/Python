@@ -12,6 +12,7 @@ class Par():
 
 
 class Sub(Parent, Par):
+
     def aaa(self):
         super(Sub, self).aaa()
         print('Sub')
